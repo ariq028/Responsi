@@ -7,7 +7,7 @@
     android:background="@drawable/gradient_drawable"
     tools:context=".ProfilePicActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profilePic"
         android:layout_width="500px"
         android:layout_height="500px"
@@ -17,11 +17,11 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="48dp"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/pinkCircle"
         android:layout_width="120px"
         android:layout_height="120px"
-        android:src="@drawable/circle"
+        android:background="@drawable/circle"
         app:layout_constraintEnd_toEndOf="@id/profilePic"
         app:layout_constraintBottom_toBottomOf="@id/profilePic"/>
 
